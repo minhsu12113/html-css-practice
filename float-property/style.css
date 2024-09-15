@@ -1,0 +1,65 @@
+* {
+	padding: 0;
+	margin: 0; 
+}
+ 
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: white; 
+} 
+
+main {	 
+  width: 100%;
+  height: 100%;
+	overflow: auto;
+
+	> .header {
+		height: 15%;
+		background: gray;
+		margin: 1rem; 
+		border: solid red;
+		padding: 1rem;
+		box-sizing: border-box;
+		overflow: auto;
+
+		.header-menu {
+			width: 100%;
+			> p { 
+				float: left;
+				border: solid 1px red;
+				padding: 1rem;
+			}
+
+			> :nth-child(1) {			
+				float: right;
+			}
+		}
+		
+	}
+
+	> .body {
+		height: 70%;
+		margin: 1rem; 
+
+		> aside {
+			width: 30%;
+			height: 100%;
+			background: gold;
+			float: left;
+		}
+
+		> article {
+			width: 67%;
+			height: 100%;
+			background: gray;
+			margin-left: 33%;
+		}
+	}
+
+	> .footer {
+		height: 15%;
+		background: gray; 
+		margin: 1rem;
+	}
+}

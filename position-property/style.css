@@ -1,0 +1,16 @@
+.container{
+  background-color: aqua; 
+}
+
+.box{
+  padding: 1rem;
+  background-color: brown;
+  height: 100vh;
+}
+
+.box-2{
+  position: sticky;
+  height: fit-content;
+  left: 0rem;
+  top: 0rem
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			body {
+				background-color: beige;
+			}
+			#container {
+				background-color: aqua;
+				margin: 0;
+				> p {
+					background-color: blueviolet;
+					margin: 130px 0 170px 0;
+				}
+			}
+		</style>
+	</head>
+	<body> 
+		<section id="container">
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel perspiciatis voluptas
+				perferendis necessitatibus cupiditate atque doloremque eaque. Saepe, ducimus. Tempore
+				alias ullam fuga recusandae quibusdam ipsam incidunt veniam animi eius?
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, blanditiis? Tenetur
+				iusto id numquam delectus magnam quod asperiores earum harum esse ipsam quas nemo, hic
+				quaerat vitae repellat corporis totam.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, blanditiis? Tenetur
+				iusto id numquam delectus magnam quod asperiores earum harum esse ipsam quas nemo, hic
+				quaerat vitae repellat corporis totam.
+			</p>
+		</section>
+		<script>
+			const container = document.getElementById('container');
+			console.log('container height: ', container.offsetHeight);
+		</script>
+	</body>
+</html>
